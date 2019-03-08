@@ -2,22 +2,22 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
-    url: /
+    url: /首页
     icon: fa-home
   Tags:
-    url: /tags
+    url: /标签
     icon: fa-tags
   Categories:
-    url: /categories
+    url: /分类
     icon: fa-bookmark
   Archives:
-    url: /archives
+    url: /归档
     icon: fa-archive
   About:
-    url: /about
+    url: /关于
     icon: fa-user-circle-o
   Friends:
-    url: /friends
+    url: /友情链接
     icon: fa-address-book
 
 # index page dream text,
@@ -77,15 +77,15 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://cr1024.github.io/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 123123123
-  github:
-  email: xxx@xx.xx
+  qq: 1025762041
+  github: https://github.com/cr1024
+  email: oz.chen@qq.com
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -130,7 +130,7 @@ mathjax:
 # 文章字数统计、阅读时长、总字数统计
 # 激活前请确认你已经安装了 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 wordCount:
-  enable: false
+  enable: true
   postWordCount: true
   min2read: true
   totalCount: true
