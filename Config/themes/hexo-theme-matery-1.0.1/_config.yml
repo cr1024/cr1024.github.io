@@ -14,7 +14,7 @@ menu:
     url: /归档
     icon: fa-archive
   关于:
-    url: /关于
+    url: https://cr1024.github.io/about
     icon: fa-user-circle-o
   友情链接:
     url: /友情链接
@@ -259,7 +259,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: 
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
