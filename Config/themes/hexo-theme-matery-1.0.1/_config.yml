@@ -1,22 +1,22 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Index:
-    url: /首页
+  首页:
+    url: https://cr1024.github.io/
     icon: fa-home
-  Tags:
+  标签:
     url: /标签
     icon: fa-tags
-  Categories:
+  分类:
     url: /分类
     icon: fa-bookmark
-  Archives:
+  归档:
     url: /归档
     icon: fa-archive
-  About:
+  关于:
     url: /关于
     icon: fa-user-circle-o
-  Friends:
+  友情链接:
     url: /友情链接
     icon: fa-address-book
 
