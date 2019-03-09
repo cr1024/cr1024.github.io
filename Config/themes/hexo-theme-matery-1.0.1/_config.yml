@@ -14,7 +14,7 @@ menu:
     url: /archives
     icon: fa-archive
   关于:
-    url: about
+    url: /about
     icon: fa-user-circle-o
   友情链接:
     url: /friends
@@ -77,7 +77,7 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://cr1024.github.io/
+  url: https://github.com/cr1024
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
