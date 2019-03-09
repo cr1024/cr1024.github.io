@@ -28,7 +28,7 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -51,7 +51,7 @@
 <ul class="right">
     
     <li class="hide-on-med-and-down">
-        <a href="https://cr1024.github.io/" class="waves-effect waves-light">
+        <a href="/" class="waves-effect waves-light">
             
             <i class="fa fa-home"></i>
             
@@ -60,7 +60,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/标签" class="waves-effect waves-light">
+        <a href="/tags" class="waves-effect waves-light">
             
             <i class="fa fa-tags"></i>
             
@@ -69,7 +69,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/分类" class="waves-effect waves-light">
+        <a href="/categories" class="waves-effect waves-light">
             
             <i class="fa fa-bookmark"></i>
             
@@ -78,7 +78,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/归档" class="waves-effect waves-light">
+        <a href="/archives" class="waves-effect waves-light">
             
             <i class="fa fa-archive"></i>
             
@@ -87,7 +87,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="https://cr1024.github.io/about" class="waves-effect waves-light">
+        <a href="/about" class="waves-effect waves-light">
             
             <i class="fa fa-user-circle-o"></i>
             
@@ -96,7 +96,7 @@
     </li>
     
     <li class="hide-on-med-and-down">
-        <a href="/友情链接" class="waves-effect waves-light">
+        <a href="/friends" class="waves-effect waves-light">
             
             <i class="fa fa-address-book"></i>
             
@@ -121,7 +121,7 @@
         <div class="logo-name">人工智障升级中 ^.^</div>
         <div class="logo-desc">
             
-            人工智能 自然语言处理 知识图谱 算法 机器学习 深度学习 Python
+            自然语言处理(NLP) 知识图谱 算法 机器学习 深度学习 Python
             
         </div>
     </div>
@@ -131,7 +131,7 @@
     <ul class="menu-list mobile-menu-list">
         
         <li>
-            <a href="https://cr1024.github.io/" class="waves-effect waves-light">
+            <a href="/" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-home"></i>
                 
@@ -140,7 +140,7 @@
         </li>
         
         <li>
-            <a href="/标签" class="waves-effect waves-light">
+            <a href="/tags" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-tags"></i>
                 
@@ -149,7 +149,7 @@
         </li>
         
         <li>
-            <a href="/分类" class="waves-effect waves-light">
+            <a href="/categories" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-bookmark"></i>
                 
@@ -158,7 +158,7 @@
         </li>
         
         <li>
-            <a href="/归档" class="waves-effect waves-light">
+            <a href="/archives" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-archive"></i>
                 
@@ -167,7 +167,7 @@
         </li>
         
         <li>
-            <a href="https://cr1024.github.io/about" class="waves-effect waves-light">
+            <a href="/about" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-user-circle-o"></i>
                 
@@ -176,7 +176,7 @@
         </li>
         
         <li>
-            <a href="/友情链接" class="waves-effect waves-light">
+            <a href="/friends" class="waves-effect waves-light">
                 
                 <i class="fa fa-fw fa-address-book"></i>
                 
@@ -212,6 +212,10 @@
     </a>
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
 </div>
 
@@ -289,13 +293,13 @@
                 <div class="brand">
                     <div class="title center-align">
                     
-                        热爱生活, 热爱探索。。。
+                        我不造轮子, 我只搬轮子...
                     
                     </div>
 
                     <div class="description center-align">
                     
-                        人工智能 自然语言处理 知识图谱 算法 机器学习 深度学习 Python
+                        自然语言处理(NLP) 知识图谱 算法 机器学习 深度学习 Python
                     
                     </div>
                 </div>
@@ -308,7 +312,7 @@
             </a>
 
             
-            <a href="https://cr1024.github.io/" class="waves-effect waves-light btn" target="_blank">
+            <a href="https://github.com/cr1024" class="waves-effect waves-light btn" target="_blank">
                 <i class="fa fa-github-alt"></i>Github
             </a>
             
@@ -331,6 +335,10 @@
     </a>
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
         
     </div>
@@ -384,76 +392,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/03/08/改变的一种方式/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="改变的一种方式">
-                            
-                            <span class="card-title">改变的一种方式</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-08
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                Luke
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/03/08/test/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="test">
-                            
-                            <span class="card-title">test</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary">
-                            
-                                
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-08
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                Luke
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -544,6 +482,10 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     </a>
 
 
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
 </div>
     </div>
 </footer>
