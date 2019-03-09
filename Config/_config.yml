@@ -4,7 +4,7 @@
 
 # Site
 title: 人工智障升级中 ^.^
-subtitle: 不造轮子, 只搬轮子...
+subtitle: 我不造轮子, 我只搬轮子...
 description: 自然语言处理(NLP) 知识图谱 算法 机器学习 深度学习 Python  
 author: Luke
 language: zh-Hans
@@ -38,19 +38,20 @@ post_asset_folder: false
 relative_link: false
 future: true
 
-#highlight:
-#  enable: false
-#  line_number: false
-#  auto_detect: false
-#  tab_replace:
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace:
 
+#代码高亮
 prism_plugin:
   mode: "preprocess" # realtime/preprocess
   theme: "tomorrow"
   auto_detect: false
   tab_replace:
-  line_numer: false
-  custom_css:  
+  custom_css: 
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
