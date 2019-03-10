@@ -2,22 +2,22 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   首页:
-    url: https://cr1024.github.io/
+    url: /
     icon: fa-home
   标签:
-    url: /标签
+    url: /tags
     icon: fa-tags
   分类:
-    url: /分类
+    url: /categories
     icon: fa-bookmark
   归档:
-    url: /归档
+    url: /archives
     icon: fa-archive
   关于:
-    url: https://cr1024.github.io/about
+    url: /about
     icon: fa-user-circle-o
   友情链接:
-    url: /友情链接
+    url: /friends
     icon: fa-address-book
 
 # index page dream text,
@@ -77,7 +77,7 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://cr1024.github.io/
+  url: https://github.com/cr1024
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty

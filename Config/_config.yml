@@ -4,8 +4,8 @@
 
 # Site
 title: 人工智障升级中 ^.^
-subtitle: 热爱生活, 热爱探索。。。
-description: 人工智能 自然语言处理 知识图谱 算法 机器学习 深度学习 Python  
+subtitle: 我不造轮子, 我只搬轮子...
+description: 自然语言处理(NLP) 知识图谱 算法 机器学习 深度学习 Python  
 author: Luke
 language: zh-Hans
 timezone:
@@ -37,12 +37,21 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace:
-  
+
+#代码高亮
+prism_plugin:
+  mode: "preprocess" # realtime/preprocess
+  theme: "tomorrow"
+  auto_detect: false
+  tab_replace:
+  custom_css: 
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -80,3 +89,25 @@ deploy:
   type: git
   repo: https://github.com/cr1024/cr1024.github.io.git
   branch: master
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+
+#拼音，有利于SEO
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+#添加RRS订阅
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
